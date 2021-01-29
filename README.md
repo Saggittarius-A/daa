@@ -47,7 +47,7 @@ python main.py
 ```
 Output
 ```
-Curve fitting using Least squares Approximation
+Union of two array
 ```
 ---
 
