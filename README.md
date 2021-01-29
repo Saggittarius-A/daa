@@ -5,8 +5,8 @@
 **Team Members**
 |   Enrollment No.  |   Name   | GithubId |
 |   --------------  |   ----   | -------- |
-|    IIT2019015  |   Aakash Anand | merazlab |
-|    IIT2019016  |   Parth kataria | mohan | 
+|    IIT2019015  |   Aakash Anand | aakashanand7 |
+|    IIT2019016  |   Parth kataria | ParthKataria | 
 |    IIT2019017  |   Shruti Nanda | iit2019017  |
 
 **Group No-**"05"
