@@ -88,19 +88,31 @@ Out:
 The algorithms were tested against positive random sets of variable sizes.The result thus obtained from this experiment is given below:
 
 For brute():
+
 Best case : Ω(n+m)
+
 Average case : θ(n+n*m)
+
 worst case : O(n+n*m)
 
+
 For union():
+
 Best case : Ω(n+m)
+
 Average case : θ(n(logn + 1) +m(logm + 1))
+
 Worst case : O(n(logn + 1) +m(logm + 1)
 
+
 For Searching and sorting
+
 Best case : Ω(mlogm+n)
+
 Average case : θ((m+n)log(min(m,n)))
+
 Worst case : O((m+n)log(min(m,n)))
+
 
 
 **Space Complexity**
@@ -109,7 +121,8 @@ For Brute : O(n)
 
 For Union : O(n)
 
-For Searching and sorting : O(n)
+for searching and sorting : O(n)
+
 ---
 
 ### References
