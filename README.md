@@ -80,6 +80,7 @@ A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (D
 ### Analysis
 
 **Time Complexity**
+
 The algorithms were tested against positive random sets of variable sizes.The result thus obtained from this experiment is given below:
 
 For brute():
