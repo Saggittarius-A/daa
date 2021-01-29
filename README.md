@@ -18,8 +18,7 @@
 To perform Ringsum operation on given two set of positive integer.
 
 ---
-## How to use code
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+
 ```
 #Download project
 git clone https://github.com/iit2019017/daa 
