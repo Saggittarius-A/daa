@@ -95,20 +95,16 @@ For brute():
 
 For union():
 
-Best case : Ω(n+m)
-
-Average case : θ(n(logn + 1) +m(logm + 1))
-
-Worst case : O(n(logn + 1) +m(logm + 1)
+- Best case : Ω(n+m)
+- Average case : θ(n(logn + 1) +m(logm + 1))
+- Worst case : O(n(logn + 1) +m(logm + 1)
 
 
 For Searching and sorting
 
-Best case : Ω(mlogm+n)
-
-Average case : θ((m+n)log(min(m,n)))
-
-Worst case : O((m+n)log(min(m,n)))
+- Best case : Ω(mlogm+n)
+- Average case : θ((m+n)log(min(m,n)))
+- Worst case : O((m+n)log(min(m,n)))
 
 
 
