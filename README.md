@@ -77,7 +77,7 @@ Out:
 ---
 
 ### Theory
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+ Given two graphs G1 = (V1, E1) and G2 = (V2, E2) we define the ring sum G1 ⊕ G2 = (V1 ∪ V2,(E1 ∪ E2) − (E1 ∩ E2)) with isolated points dropped. So an edge is in G1 ⊕ G2 if and only if it is an edge of G1 , or an edge of G2, but not both.
 
 ---
 
