@@ -107,9 +107,7 @@ A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (D
 
 ### References
 
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real tex
-=======
-# daa
+https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/
+https://www.google.com/search?q=Ringsum+operation+on+two+sets+of+positive+integers&oq=Ringsum+oper&aqs=chrome.1.69i57j69i59l2.7684j0j7&sourceid=chrome&ie=UTF-8
 
-## This Repository is for submitting all the assignment of our course DAA(Design and Analysis of Algorithm).
->>>>>>> cbce121e62f4bbc9bbec76c95940ea577454f83f
+
