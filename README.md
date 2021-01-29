@@ -88,13 +88,13 @@ Out:
 The algorithms were tested against positive random sets of variable sizes.The result thus obtained from this experiment is given below:
 
 For brute():
-
+---
 Best case : Ω(n+m)
-
+---
 Average case : θ(n+n*m)
-
+---
 worst case : O(n+n*m)
-
+---
 
 For union():
 
