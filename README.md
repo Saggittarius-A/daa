@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 # Assignment-1
 
 **Team Members**
