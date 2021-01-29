@@ -105,8 +105,11 @@ Worst case : O((m+n)log(min(m,n)))
 
 **Space Complexity**
 
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+For Brute : O(n)
 
+For Union : O(n)
+
+For Searching and sorting : O(n)
 ---
 
 ### References
