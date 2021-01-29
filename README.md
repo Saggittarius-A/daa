@@ -80,8 +80,23 @@ A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (D
 ### Analysis
 
 **Time Complexity**
+The algorithms were tested against positive random sets of variable sizes.The result thus obtained from this experiment is given below:
 
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+For brute():
+Best case : Ω(n+m)
+Average case : θ(n+n*m)
+worst case : O(n+n*m)
+
+For union():
+Best case : Ω(n+m)
+Average case : θ(n(logn + 1) +m(logm + 1))
+Worst case : O(n(logn + 1) +m(logm + 1)
+
+For Searching and sorting
+Best case : Ω(mlogm+n)
+Average case : θ((m+n)log(min(m,n)))
+Worst case : O((m+n)log(min(m,n)))
+
 
 **Space Complexity**
 
