@@ -120,8 +120,7 @@ Worst case : O((m+n)log(min(m,n)))
 For Brute : O(n)
 
 For Union : O(n)
-
-for searching and sorting : O(n)
+For searching and sorting : O(n)
 
 ---
 
