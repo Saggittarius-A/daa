@@ -42,7 +42,8 @@ touch main.py
 
 Run the code
 ```
-python main.py
+Brute_Force.cpp
+Sorting_and_Searching.cpp
 ```
 Output
 ```
@@ -52,7 +53,7 @@ Union of two array
 
 **Test case**
 
-Find max
+Find Union
 ```
 Test Case-1
 Input:
