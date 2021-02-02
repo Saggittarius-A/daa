@@ -5,7 +5,7 @@
 |   --------------  |   ----   | -------- |
 |    IIT2019015  |   Aakash Anand | aakashanand7 |
 |    IIT2019016  |   Parth kataria | ParthKataria | 
-|    IIT2019017  |   Shruti Nanda | iit2019017  |
+|    IIT2019017  |   Shruti Nanda | Saggittarius-A  |
 
 **Group No-**"05"
 
@@ -120,7 +120,7 @@ For searching and sorting : O(n)
 
 ### References
 
-https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/
-https://www.google.com/search?q=Ringsum+operation+on+two+sets+of+positive+integers&oq=Ringsum+oper&aqs=chrome.1.69i57j69i59l2.7684j0j7&sourceid=chrome&ie=UTF-8
+1. https://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/
+2. https://www.google.com/search?q=Ringsum+operation+on+two+sets+of+positive+integers&oq=Ringsum+oper&aqs=chrome.1.69i57j69i59l2.7684j0j7&sourceid=chrome&ie=UTF-8
 
 
