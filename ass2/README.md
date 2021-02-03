@@ -79,6 +79,9 @@ Out:
 ---
 
 ### Theory
+Given a 2d array with n number of rows and m number of columns where n and m less than 50.
+The elements of the array will range from 0 to 9.
+We will print the largest sorted component in the array horizontally.
 
 
 ---
@@ -95,28 +98,17 @@ For brute():
 - Average case : θ(n*m)
 - worst case : O(n*m)
 
-For union():
+For Sorting_cnt():
 
-- Best case : Ω(n+m)
-- Average case : θ(n(logn + 1) +m(logm + 1))
-- Worst case : O(n(logn + 1) +m(logm + 1)
-
-
-For Searching and sorting
-
-- Best case : Ω(mlogm+n)
-- Average case : θ((m+n)log(min(m,n)))
-- Worst case : O((m+n)log(min(m,n)))
-
-
+- Best case : Ω(n^2)
+- Average case : θ(n^2)
+- Worst case : O(n^2(logn))
 
 **Space Complexity**
 
 For Brute : O(n*m)
 
-For Union : O(n)
-
-For searching and sorting : O(n)
+For sorting_count : O(n^2.logn)
 
 ---
 
