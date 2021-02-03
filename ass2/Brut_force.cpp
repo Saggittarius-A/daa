@@ -18,20 +18,12 @@ int main()
     		cnt++;
     		else{
     			max_cnt=max(cnt,max_cnt);
-    			cnt=0;
-			}
-		}
-		cnt=0;
-		for(int j=m-1;j>1;j--)
-    	{
-    		if(a[i][j]<a[i][j-1])
-    		cnt++;
-    		else{
-    			max_cnt=max(cnt,max_cnt);
-    			cnt=0;
+    			cnt=1;
 			}
 		}
 		
 	}
 	cout<<max_cnt;
 }
+
+//
