@@ -14,16 +14,18 @@ int main()
     for(int i=0;i<n;i++){
     	for(int j=1;j<m;j++)
     	{
-    		if(a[i][j]>a[i][j-1])
+    		if(a[i][j]>=a[i][j-1])
     		cnt++;
     		else{
     			max_cnt=max(cnt,max_cnt);
     			cnt=1;
 			}
 		}
+		max_cnt=max(cnt,max_cnt);
+		cnt=1;
 		
 	}
-	cout<<max_cnt;
+	cout<<max_cnt<<"\n";
 }
 
 //
