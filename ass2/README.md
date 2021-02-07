@@ -108,7 +108,7 @@ For Sorting_cnt():
 
 For Brute : O(n*m)
 
-For sorting_count : O(n^2.logn)
+For sorting_count : O(n*m)
 
 ---
 
