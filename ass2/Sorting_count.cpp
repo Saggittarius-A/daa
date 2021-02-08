@@ -23,8 +23,11 @@ int main()
     			cnt=1;
 			}
 		}
+		v.push_back(cnt);
+		cnt=1;
 		
 	}
+	v.push_back(cnt);
     sort(v.begin(), v.end());
 	cout<<v[v.size()-1];
 }
