@@ -61,24 +61,18 @@ Find length of largest sorted array
 Test Case-1
 Input:
 2 3
-3 4 5 
-2 7 5
+3  4  5 
+2  7  5
 Output:
 3
 
-#--------------------------#
+
 Test Case-2
 Input: 
-3 4
-|   Enrollment No.  |   Name   | GithubId |
-|   --------------  |   ----   | -------- |
-|    IIT2019015  |   Aakash Anand | aakashanand7 |
-|    IIT2019016  |   Parth kataria | ParthKataria | 
-|    IIT2019017  |   Shruti Nanda | Saggittarius-A  |
-| 9 | 8 | 7 | 6 |
-| --- | --- | --- | --- |
-| 1 | 2 | 3 | 4 |
-| 9 | 8 | 9 | 7 |
+3 4 
+ 9  8  7  6  
+ 1  2  3  4
+ 9  8  9  7 
 
 
 Output:
