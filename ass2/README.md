@@ -44,8 +44,9 @@ touch readme.md
 
 Run the code
 ```
-Brute_Force.cpp
-Sorting_and_Searching.cpp
+cd daa
+gcc Brute_Force.cpp
+gcc Sorting_and_Searching.cpp
 ```
 Output
 ```
@@ -62,17 +63,21 @@ Input:
 2 3
 3 4 5 
 2 7 5
-Out:
+Output:
 3
 
 #--------------------------#
 Test Case-2
 Input: 
 3 4
-9 8 7 6
-1 2 3 1
-3 4 5 1
-Out:
+|   9  |   8   |  7  |  6  |
+|   ---|   --- | --- |  -- |
+|   1  |   2   |  3  |  4  |
+|   ---|   --- | --- |  -- |
+|   9  |   8   |  9  |  7  |
+|   ---|   --- | --- |  -- |
+
+Output:
 4
 ```
 
@@ -90,7 +95,7 @@ We will print the largest sorted component in the array horizontally.
 
 **Time Complexity**
 
-The algorithms were tested against positive random sets of variable sizes.The result thus obtained from this experiment is given below:
+The algorithms were tested against positive random array of numbers of variable sizes.The result thus obtained from this experiment is given below:
 
 For brute():
 
@@ -106,14 +111,14 @@ For Sorting_cnt():
 
 **Space Complexity**
 
-For Brute : O(n*m)
+For Brute : O(n^2)
 
-For sorting_count : O(n*m)
+For sorting_count : O(n^2)
 
 ---
 
 ### References
 
 1. https://www.geeksforgeeks.org/longest-increasing-path-matrix/
-2. https://www.quora.com/How-would-one-use-Arrays-sort-on-a-multidimensional-array-of-ints-by-the-first-element-of-each-sub-array-in-Java
+2. https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
 
