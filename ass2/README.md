@@ -70,6 +70,11 @@ Output:
 Test Case-2
 Input: 
 3 4
+|   Enrollment No.  |   Name   | GithubId |
+|   --------------  |   ----   | -------- |
+|    IIT2019015  |   Aakash Anand | aakashanand7 |
+|    IIT2019016  |   Parth kataria | ParthKataria | 
+|    IIT2019017  |   Shruti Nanda | Saggittarius-A  |
 | 9 | 8 | 7 | 6 |
 | --- | --- | --- | --- |
 | 1 | 2 | 3 | 4 |
@@ -98,9 +103,9 @@ The algorithms were tested against positive random array of numbers of variable 
 
 For brute():
 
-- Best case : Ω(n*m)
-- Average case : θ(n*m)
-- worst case : O(n*m)
+- Best case : Ω(n^2)
+- Average case : θ(n^2)
+- worst case : O(n^2)
 
 For Sorting_cnt():
 
