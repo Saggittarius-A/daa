@@ -1,6 +1,6 @@
-# Assignment-3
+# 📝Assignment-3
 
-**Team Members**
+** 👯 Team Members**
 |   Enrollment No.  |   Name   | GithubId |
 |   --------------  |   ----   | -------- |
 |    IIT2019015  |   Aakash Anand | aakashanand7 |
@@ -14,7 +14,7 @@
 **Mentor Name-** "Md. Meraz"
 
 ---
-## Problem Statement
+## ❓Problem Statement
 Merge Two Heaps 
 
 
@@ -27,10 +27,10 @@ git clone https://github.com/Saggittarius-A/daa
 Project Initialize 
 ```
 cd daa
-#create assignment-3 folder
+#create 📁assignment-3
 mkdir assignment_03
 
-#go to assignment-3
+#go to 📁assignment-3
 cd assignment_03
 
 #Create file
@@ -84,4 +84,5 @@ Conclusion
 ### References
 
 [1] https://www.geeksforgeeks.org/merge-two-binary-max-heaps/
+
 [2] https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/
