@@ -76,8 +76,8 @@ In descending order  if a and b are max heap and in ascending order if a and b a
 ### Analysis
 
 ** 🕐Time Complexity**
+
 For Approach1:
-Time Complexity:
 - Best case : Ω((n+m)*(1+log(n+m))
 - Average case : θ((n+m)*(1+log(n+m))
 - Worst case : O((n+m)*(1+log(n+m))
