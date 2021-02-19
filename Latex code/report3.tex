@@ -1,0 +1,490 @@
+%%%%%%%%%%%%  Generated using docx2latex.com  %%%%%%%%%%%%%%
+
+%%%%%%%%%%%%  v2.0.0-beta  %%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem}
+\usepackage{soul}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{extarrows}
+\usepackage{graphicx}
+\usepackage[backend=biber,
+style=numeric,
+sorting=none,
+isbn=false,
+doi=false,
+url=false,
+]{biblatex}\addbibresource{bibliography.bib}
+
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{wasysym}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{ragged2e}
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{changepage}
+\usepackage{setspace}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{tabto}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[hidelinks]{hyperref}
+\usetikzlibrary{shapes.symbols,shapes.geometric,shadows,arrows.meta}
+\tikzset{>={Latex[width=1.5mm,length=2mm]}}
+\usepackage{flowchart}\usepackage[paperheight=11.0in,paperwidth=8.5in,left=0.81in,right=0.75in,top=1.0in,bottom=1.0in,headheight=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\TabPositions{0.5in,1.0in,1.5in,2.0in,2.5in,3.0in,3.5in,4.0in,4.5in,5.0in,5.5in,6.0in,6.5in,}
+
+\urlstyle{same}
+
+\renewcommand{\_}{\kern-1.5pt\textunderscore\kern-1.5pt}
+
+ %%%%%%%%%%%%  Set Depths for Sections  %%%%%%%%%%%%%%
+
+% 1) Section
+% 1.1) SubSection
+% 1.1.1) SubSubSection
+% 1.1.1.1) Paragraph
+% 1.1.1.1.1) Subparagraph
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+ %%%%%%%%%%%%  Set Depths for Nested Lists created by \begin{enumerate}  %%%%%%%%%%%%%%
+
+
+\setlistdepth{9}
+\renewlist{enumerate}{enumerate}{9}
+		\setlist[enumerate,1]{label=\arabic*)}
+		\setlist[enumerate,2]{label=\alph*)}
+		\setlist[enumerate,3]{label=(\roman*)}
+		\setlist[enumerate,4]{label=(\arabic*)}
+		\setlist[enumerate,5]{label=(\Alph*)}
+		\setlist[enumerate,6]{label=(\Roman*)}
+		\setlist[enumerate,7]{label=\arabic*}
+		\setlist[enumerate,8]{label=\alph*}
+		\setlist[enumerate,9]{label=\roman*}
+
+\renewlist{itemize}{itemize}{9}
+		\setlist[itemize]{label=$\cdot$}
+		\setlist[itemize,1]{label=\textbullet}
+		\setlist[itemize,2]{label=$\circ$}
+		\setlist[itemize,3]{label=$\ast$}
+		\setlist[itemize,4]{label=$\dagger$}
+		\setlist[itemize,5]{label=$\triangleright$}
+		\setlist[itemize,6]{label=$\bigstar$}
+		\setlist[itemize,7]{label=$\blacklozenge$}
+		\setlist[itemize,8]{label=$\prime$}
+
+\setlength{\topsep}{0pt}\setlength{\parindent}{0pt}
+
+ %%%%%%%%%%%%  This sets linespacing (verticle gap between Lines) Default=1 %%%%%%%%%%%%%%
+
+
+\renewcommand{\arraystretch}{1.3}
+
+
+%%%%%%%%%%%%%%%%%%%% Document code starts here %%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\begin{adjustwidth}{-0.25in}{-0.44in}
+\begin{Center}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{Merge Two Heaps }\par}
+\end{Center}\par
+
+\end{adjustwidth}
+
+\begin{Center}
+Akash Anand, Parth Kataria, Shruti Nanda
+\end{Center}\par
+
+\begin{Center}
+\href{mailto:iit2019015@iiita.ac.in}{{\fontsize{13pt}{15.6pt}\selectfont \textcolor[HTML]{1155CC}{\ul{iit2019015@iiita.ac.in}}}, \href{mailto:iit20190016@iiita.ac.in}{\textcolor[HTML]{1155CC}{\ul{iit20190016@iiita.ac.in}}}, \href{mailto:iit2019017@iiita.ac.in}{\textcolor[HTML]{1155CC}{\ul{iit2019017@iiita.ac.in}}}\par}
+\end{Center}\par
+
+\begin{Center}
+\textit{IV semester,Department of Information Technology}
+\end{Center}\par
+
+\begin{Center}
+\textit{Indian Institute of Information Technology, Allahabad}
+\end{Center}\par
+
+
+\vspace{\baselineskip}
+\begin{multicols}{2}
+
+\vspace{\baselineskip}
+\textbf{\textit{Abstract-This paper introduces algorithms to merge two heaps .The idea is to design,explain and analyse algorithms and conclude with the most efficient algorithm in terms of time and space complexities. }}\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+\begin{Center}
+\textbf{1. INTRODUCTION}
+\end{Center}\par
+
+\textcolor[HTML]{202124}{A heap is a tree-based data structure in which all the nodes of the tree are in a specific order.On basis of order there are two heaps min heap and max heap.We are given two heaps and we have returned a merged heap of the given heaps.}\par
+
+This report further contains:\par
+
+\begin{enumerate}
+	\item Algorithm Design and Analysis\par
+
+	\item Experimental study and complexity.\par
+
+	\item Conclusion\par
+
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=2.9in,height=1.69in]{./media/image1.jpg}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 1 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+\begin{Center}
+{\fontsize{10pt}{12.0pt}\selectfont \textit{Fig 1.1:Merging two max heaps}\par}
+\end{Center}\par
+
+
+\vspace{\baselineskip}
+\begin{Center}
+\textbf{2. ALGORITHM DESIGN}
+\end{Center}\par
+
+We are considering the cases when both heaps are max heap or both are min heap.\par
+
+1. Take input of the two heaps into arrays.\par
+
+Name these arrays as array a and array b and their respective sizes be n and m.\par
+
+2. Perform any one of the following defined algorithms and store result in array c.\par
+
+
+\vspace{\baselineskip}
+----------------------------------------------------------\par
+
+Approach 1:Random Merge\par
+
+----------------------------------------------------------\par
+
+\textbf{function\  }merge(int a[],int b[],int c[])\par
+
+\ \  \textbf{ for } i $ \leftarrow $  0 \textbf{to} n \textbf{do}\par
+
+\tab c[i]=a[i]\par
+
+\ \ \  \textbf{end for}\par
+
+\ \ \  \textbf{for}\  i $ \leftarrow $  0 \textbf{to} m \textbf{do}\par
+
+\tab c[i+sizeof(a)]=a[i]\par
+
+\ \ \  \textbf{end for}\par
+
+\ \ \  sort(c,c+n+m) \par
+
+\textbf{end\  function}\par
+
+----------------------------------------------------------\par
+
+In this approach sorting is performed according to the property of the heap.\par
+
+In\ descending order  if a and b are max heap and in ascending order if a and b are min heap.\par
+
+----------------------------------------------------------\par
+
+Approach 2:Ordered Merge\par
+
+----------------------------------------------------------\par
+
+\textbf{function\  }merge(int a[],int b[],int c[])\par
+
+\  \textbf{If }max heap \textbf{then}\par
+
+\ \  \textbf{\  }int i=0,j=0;\par
+
+\ \ \  \textbf{ while}\  i<n $\&$ $\&$  j<m\par
+
+\ \ \ \ \ \ \ \ \  \textbf{If} a[i]>=b[j] \textbf{then}\par
+
+\tab push a[i] in c[] and i++\par
+
+\ \ \ \ \ \ \ \ \  \textbf{If} a[i]<b[j] \textbf{then}\par
+
+\tab push b[j] in c[] and j++\par
+
+\ \ \ \  \textbf{end while}\par
+
+\ \  \textbf{ while} i<n\par
+
+\ \ \ \ \ \ \ \ \  push a[i] to c[i] and i++\par
+
+\ \ \ \  \textbf{end while}\par
+
+\ \ \ \  while(j<m)\par
+
+\ \ \ \ \ \ \ \ \ \  Push b[i] to c[i] and j++\par
+
+\ \ \ \  \textbf{ end while}\par
+
+\textbf{end\  function}\par
+
+--------------------------------------------------------------Same\  algorithm can be performed for min heap. \par
+
+\begin{Center}
+\textbf{3. EXPERIMENTAL STUDY AND ANALYSIS}
+\end{Center}\par
+
+
+\vspace{\baselineskip}
+\textbf{A priori analysis:}\par
+
+For Approach1:\par
+
+1)Time Complexity:\par
+
+Best case : $ \Omega $ ((n+m)$\ast$ (1+log(n+m))\par
+
+Average case : $ \theta $ ((n+m)$\ast$ (1+log(n+m))\par
+
+Worst case : O((n+m)$\ast$ (1+log(n+m))\par
+
+2)Space Complexity-O(n+m)\par
+
+
+\vspace{\baselineskip}
+For Approach2:\par
+
+1)Time Complexity:\par
+
+Best case : $ \Omega $ (n+m)\par
+
+Average case : $ \theta $ (n+m)\par
+
+Worst case : O(n+m)\par
+
+2)Space Complexity-O(n+m)\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 starts here %%%%%%%%%%%%%%%%%%%%
+
+
+\begin{table}[H]
+ 			\centering
+\begin{tabular}{p{0.18in}p{0.42in}p{0.45in}p{0.54in}p{0.73in}}
+\hline
+%row no:1
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont S no.}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont \ \ \ \ \ \  N}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont \ \ \ \  M}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont Algorithm1}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont \ \  Algorithm2}} \\
+\hhline{-----}
+%row no:2
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 1}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 5}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 5}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 10}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 33.21928095}} \\
+\hhline{-----}
+%row no:3
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 2}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 20}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 20}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 40}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 212.8771238}} \\
+\hhline{-----}
+%row no:4
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 3}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 40}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 40}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 80}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 505.7542476}} \\
+\hhline{-----}
+%row no:5
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 4}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 50}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 50}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 100}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 664.385619}} \\
+\hhline{-----}
+%row no:6
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 5}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 70}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 70}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 140}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 998.0996224}} \\
+\hhline{-----}
+%row no:7
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 6}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 200}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 1000}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 1200}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 12274.58243}} \\
+\hhline{-----}
+%row no:8
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 7}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 5000}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 100}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 5100}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 62813.03581}} \\
+\hhline{-----}
+%row no:9
+\multicolumn{1}{|p{0.18in}}{{\fontsize{10pt}{12.0pt}\selectfont 8}} & 
+\multicolumn{1}{|p{0.42in}}{{\fontsize{10pt}{12.0pt}\selectfont 1000000}} & 
+\multicolumn{1}{|p{0.45in}}{{\fontsize{10pt}{12.0pt}\selectfont 1000000}} & 
+\multicolumn{1}{|p{0.54in}}{{\fontsize{10pt}{12.0pt}\selectfont 2000000}} & 
+\multicolumn{1}{|p{0.73in}|}{{\fontsize{10pt}{12.0pt}\selectfont 41863137.14}} \\
+\hhline{-----}
+
+\end{tabular}
+ \end{table}
+
+
+%%%%%%%%%%%%%%%%%%%% Table No: 1 ends here %%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+	\item \textbf{TIME COMPLEXITY}\par
+
+The\ algorithms were tested against  random heaps of variable sizes.The observation thus obtained from this experiment is represented in the form of individual and campirison graphs given below:\par
+
+
+\vspace{\baselineskip}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 2 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=3.61in,height=2.51in]{./media/image3.png}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 2 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+
+\vspace{\baselineskip}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 3 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=3.78in,height=2.52in]{./media/image4.png}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 3 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+
+\vspace{\baselineskip}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 4 starts here %%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[H]
+	\begin{Center}
+		\includegraphics[width=3.69in,height=2.96in]{./media/image2.png}
+	\end{Center}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%% Figure/Image No: 4 Ends here %%%%%%%%%%%%%%%%%%%%
+
+\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+	\item \textbf{CONCLUSION}\par
+
+After observing and analysing the above algorithms we can conclude that the algorithm based on the second approach is much more effective than the first based on time complexity and both are similar in terms of space complexity.\par
+
+
+\vspace{\baselineskip}
+	\item \textbf{ REFERENCES}
+\end{enumerate}\par
+
+\begin{enumerate}
+	\item \href{https://www.geeksforgeeks.org/merge-two-binary-max-heaps/}{\textcolor[HTML]{1155CC}{\ul{https://www.geeksforgeeks.org/merge-two-binary-max-heaps/}}}\par
+
+	\item \href{https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/}{\textcolor[HTML]{1155CC}{\ul{https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/}}}
+\end{enumerate}\par
+
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+\tab 
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\end{multicols}
+
+\printbibliography
+\end{document}
