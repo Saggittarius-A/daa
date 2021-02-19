@@ -1,4 +1,4 @@
-# Assignment-1
+# DAA Assignments
 
 **Team Members**
 |   Enrollment No.  |   Name   | GithubId |
@@ -14,9 +14,7 @@
 **Mentor Name-** "Md. Meraz"
 
 ---
-## Problem Statement
-To perform Ringsum operation on given two set of positive integer.
-
+## This Repo is for aubmitting all of our DAA assignment and all of our Assignment is evaluated by our TA meraz. 
 ---
 
 ```
