@@ -1,6 +1,6 @@
 # 📝Assignment-3
 
-** 👯Team Members **
+**👯Team Members**
 |   Enrollment No.  |   Name   | GithubId |
 |   --------------  |   ----   | -------- |
 |    IIT2019015  |   Aakash Anand | aakashanand7 |
@@ -53,10 +53,8 @@ Merged Heap
 ```
 ---
 
-**Test case**
-Merge Two Heap
+**Example Test case**
 
-Test Case
 
 Input:
 
