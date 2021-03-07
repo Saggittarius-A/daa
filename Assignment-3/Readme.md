@@ -103,7 +103,7 @@ In descending order  if a and b are max heap and in ascending order if a and b a
 
 ### Analysis
 
-** 🕐Time Complexity**
+**🕐Time Complexity**
 
 For Approach1:
 - Best case : Ω((n+m)*(1+log(n+m))
