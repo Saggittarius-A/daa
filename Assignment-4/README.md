@@ -15,7 +15,7 @@
 
 ---
 ## ❓Problem Statement
-Merge Two Heaps 
+Find the Repeated Element
 
 
 ---
@@ -27,11 +27,11 @@ git clone https://github.com/Saggittarius-A/daa
 Project Initialize 
 ```
 cd daa
-#create 📁assignment-3
-mkdir assignment_03
+#create 📁assignment-4
+mkdir assignment_04
 
-#go to 📁assignment-3
-cd assignment_03
+#go to 📁assignment-4
+cd assignment_04
 
 #Create file
 touch readme.md
@@ -45,11 +45,12 @@ Run the code
 ```
 cd daa
 gcc Brute_Force.cpp
-gcc Sorting_and_Searching.cpp
+gcc hashing.cpp
+gcc divideandconquer
 ```
 Output
 ```
-Merged Heap
+Repeated Elements
 ```
 ---
 
@@ -75,29 +76,23 @@ Output:
 {12, 10, 9, 2, 5, 7, 6}
 
 
-![ma2](https://user-images.githubusercontent.com/57368869/108480194-a73ad180-72bc-11eb-966b-5e48f64d416a.jpg)
-
-
-
 
 ---
 
 
-
-
 ### 📋 Theory
-A heap is a tree-based data structure in which all the nodes of the tree are in a specific order.On basis of order there are two heaps min heap and max heap.We are given two heaps and we have returned a merged heap of the given heaps.
+We are given a sorted array of n elements containing each element in the range from 1 to n-1 with only one element occurring twice and our task is to design the most efficient algorithm to find that repeating element.
 
-![Screenshot (174)](https://user-images.githubusercontent.com/57368869/108061795-d3690f00-707e-11eb-8a4f-84ca7dfb8335.png)
 
-🎯 Approach 1:Random Merge
-In this approach sorting is performed according to the property of the heap.
-In descending order  if a and b are max heap and in ascending order if a and b are min heap.
+🎯 Approach 1:Brute-force
+It is a simple brute force method comparing adjacent elements and if for a case they are equal then it is our repeated element.
+
 
 🎯 Approach 2: ordered Merge
-In this approach sorting is performed according to the property of the heap.
-In descending order  if a and b are max heap and in ascending order if a and b are min heap.
+In this approach a hash table is maintained for elements in the range 1 to n-1 with hash[i]=1 describing the element is present in the array and for an element if hash[i]=1 meaning it is repeated.
 
+🎯 Approach 3: Divide and Conquer
+In this approach we start by checking the middle element if it is repeating.Then we check the position of the middle element if it is proper then we check in the right half of the array else in the left half.
 
 ---
 
@@ -106,27 +101,32 @@ In descending order  if a and b are max heap and in ascending order if a and b a
 **🕐Time Complexity**
 
 For Approach1:
-- Best case : Ω((n+m)*(1+log(n+m))
-- Average case : θ((n+m)*(1+log(n+m))
-- Worst case : O((n+m)*(1+log(n+m))
+- Best case : Ω(1)
+- Average case :  θ(n/2)
+- Worst case : O(n)
 
 For Approach2:
-- Best case : Ω(n+m)
-- Average case : θ(n+m)
-- Worst case : O(n+m)
+- Best case : Ω(1)
+- Average case : θ(n/2)
+- Worst case : O(n)
 
+For Approach3:
+- Best case : Ω(1)
+- Average case : θ(logn)
+- Worst case : O(logn)
 
 
 
 **Space Complexity**
-- For Approach1: O(n+m)
-- For Approach2: O(n+m)
+- For Approach1: O(1)
+- For Approach2: O(n)
+- - For Approach3: O(1)
 
 
 ---
 
 ### References
 
-[1] https://www.geeksforgeeks.org/merge-two-binary-max-heaps/
+[1] https://www.geeksforgeeks.org/find-repeating-element-sorted-array-size-n/
 
 [2] https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/
