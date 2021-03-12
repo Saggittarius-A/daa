@@ -59,21 +59,14 @@ Repeated Elements
 
 Input:
 
-Enter the size of 1st Heap: 4
+Enter the size of 1st Heap: 5
 
-Enter the elements of first Heap: {10, 5, 6, 2}
+Enter the elements of first Array
+4 5 6 9 9 
 
-![ma](https://user-images.githubusercontent.com/57368869/108480008-6d69cb00-72bc-11eb-94a9-ae7dca1ef776.jpg)
+OUTPUT:
 
-Enter the size of 2nd Heap: 3
-
-Enter the elements of Second Heap: {12, 7, 9}
-
-![ma1](https://user-images.githubusercontent.com/57368869/108480145-95592e80-72bc-11eb-9d82-07bc739780e5.jpg)
-
-Output:
-
-{12, 10, 9, 2, 5, 7, 6}
+Repeated Element: 9
 
 
 
